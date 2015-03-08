@@ -1,0 +1,58 @@
+html {
+  font-family: sans-serif;
+
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+header {
+  background-size: cover;
+  background-position: 0px, -70px;
+  text-align: center;
+  position: relative;
+}
+
+
+header > h1 {
+  color: #FFFFFD;
+  font-size: 48px;
+  text-spacing: 3em;
+  position: relative;
+  top: -200px;
+
+}
+
+.social-icon-container {
+  top: 30px;
+  position: absolute;
+  right: 20px;
+}
+.social-icon-container > a {
+  display: inline-block;
+}
+.social-icon-container img {
+  width: 64px;
+}
+
+#branding-text {
+  vertical-align: top;
+  margin-top: -90px;
+}
+#branding-text > h2 {
+  font-size: 24px;
+}
+
+
+.navigation {
+  clear: both;
+  display: inline;
+  position: relative;
+
+}
+
+h3 {
+  color: #FFFFFD;
+}
