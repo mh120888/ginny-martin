@@ -1,10 +1,8 @@
 html {
   font-family: sans-serif;
-
 }
 
 body {
-  height: 100%;
   margin: 0;
 }
 
@@ -15,14 +13,14 @@ header {
   position: relative;
 }
 
-
 header > h1 {
-  color: #FFFFFD;
+  color: #000;
   font-size: 48px;
   text-spacing: 3em;
-  position: relative;
-  top: -200px;
-
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .social-icon-container {
@@ -30,6 +28,7 @@ header > h1 {
   position: absolute;
   right: 20px;
 }
+
 .social-icon-container > a {
   display: inline-block;
 }
@@ -37,10 +36,6 @@ header > h1 {
   width: 64px;
 }
 
-#branding-text {
-  vertical-align: top;
-  margin-top: -90px;
-}
 #branding-text > h2 {
   font-size: 24px;
 }
@@ -48,9 +43,18 @@ header > h1 {
 
 .navigation {
   clear: both;
-  display: inline;
-  position: relative;
+  display: block;
+  background-color: #000;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
 
+.navigation section {
+  float: left;
+  width: 25%;
+  background: yellow;
+  text-align: center;
 }
 
 h3 {
